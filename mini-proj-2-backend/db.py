@@ -1,6 +1,6 @@
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
-from local_congif import MONGODB_CLUSTER, MONGODB_USER, MONGODB_PASSWORD, APP_NAME
+from local_config import MONGODB_CLUSTER, MONGODB_USER, MONGODB_PASSWORD, APP_NAME
 
 try:
     uri = f"mongodb+srv://{MONGODB_USER}:{MONGODB_PASSWORD}@{MONGODB_CLUSTER}.mongodb.net/?retryWrites=true&w=majority&appName={APP_NAME}"
