@@ -1,5 +1,4 @@
-# Diary Fullstack Application
-
+## My Personal Sentimental Diary
 This project is a fullstack diary application built with a React front-end and a Flask back-end. The back-end uses MongoDB Atlas for data storage.
 
 ## Description
